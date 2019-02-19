@@ -1,0 +1,13 @@
+<xsd:schema
+    xmlns:xsd="http://www.w3.org/2001/XMLSchema"
+    elementFormDefault="qualified">
+    <xsd:element name="output" type="output"/>
+    <xsd:complexType name="output">
+        <xsd:sequence>
+            <xsd:element name="message" type="message" minOccurs="1" maxOccurs="1"/>
+        </xsd:sequence>
+    </xsd:complexType>
+    <xsd:simpleType name="message">
+        <xsd:restriction base="xsd:string"/>
+    </xsd:simpleType>
+</xsd:schema>

@@ -1,0 +1,46 @@
+downloads/*.png
+downloads/*.jpg
+downloads/*.jpeg
+
+# Visual Paradigm
+*.vpp.bak_*
+
+# Web Client
+webclient/node_modules/
+webclient/coverage/
+webclient/build/
+
+# macOS
+*.DS_Store
+
+# JetBrains
+.idea/
+
+# Visual Studio
+.vs/
+.vscode/
+
+# NetBeans
+nbproject/
+
+# Compiled Classes
+*.class
+
+# Logs
+*.log
+
+# BlueJ
+*.ctxt
+
+# Mobile Tools for Java (J2ME)
+.mtj.tmp/
+
+# Package Files
+*.war
+*.nar
+*.ear
+*.tar.gz
+*.rar
+
+# Virtual Machine Crash Logs
+hs_err_pid*

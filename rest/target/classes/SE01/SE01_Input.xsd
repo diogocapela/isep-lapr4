@@ -1,0 +1,53 @@
+<xsd:schema
+    xmlns:xsd="http://www.w3.org/2001/XMLSchema"
+    elementFormDefault="qualified">
+    <xsd:element name="caso" type="caso"/>
+    <xsd:complexType name="caso">
+        <xsd:all>
+            <xsd:element name="objetos_segurados" type="objetos_segurados" minOccurs="1" maxOccurs="1"/>
+            <xsd:element name="validacao" type="validacao" minOccurs="0" maxOccurs="1"/>
+        </xsd:all>
+    </xsd:complexType>
+    <xsd:simpleType name="validacao">
+        <xsd:restriction base="xsd:string"/>
+    </xsd:simpleType>
+    <xsd:complexType name="objetos_segurados">
+        <xsd:sequence>
+            <xsd:element name="objeto_seguro" type="objeto_seguro" minOccurs="1" maxOccurs="unbounded"/>
+        </xsd:sequence>
+    </xsd:complexType>
+    <xsd:complexType name="objeto_seguro">
+        <xsd:all>
+            <xsd:element name="descricao" type="descricao" minOccurs="1" maxOccurs="1"/>
+            <xsd:element name="lat" type="lat" minOccurs="1" maxOccurs="1"/>
+            <xsd:element name="lng" type="lng" minOccurs="1" maxOccurs="1"/>
+            <xsd:element name="coberturas" type="coberturas" minOccurs="1" maxOccurs="1"/>
+        </xsd:all>
+    </xsd:complexType>
+    <xsd:simpleType name="descricao">
+        <xsd:restriction base="xsd:string"/>
+    </xsd:simpleType>
+    <xsd:simpleType name="lat">
+        <xsd:restriction base="xsd:decimal"/>
+    </xsd:simpleType>
+    <xsd:simpleType name="lng">
+        <xsd:restriction base="xsd:decimal"/>
+    </xsd:simpleType>
+    <xsd:complexType name="coberturas">
+        <xsd:sequence>
+            <xsd:element name="cobertura" type="cobertura" minOccurs="1" maxOccurs="unbounded"/>
+        </xsd:sequence>
+    </xsd:complexType>
+    <xsd:complexType name="cobertura">
+        <xsd:all>
+            <xsd:element name="titulo_cobertura" type="titulo_cobertura" minOccurs="1" maxOccurs="1"/>
+            <xsd:element name="descricao_cobertura" type="descricao_cobertura" minOccurs="1" maxOccurs="1"/>
+        </xsd:all>
+    </xsd:complexType>
+    <xsd:simpleType name="titulo_cobertura">
+        <xsd:restriction base="xsd:string"/>
+    </xsd:simpleType>
+    <xsd:simpleType name="descricao_cobertura">
+        <xsd:restriction base="xsd:string"/>
+    </xsd:simpleType>
+</xsd:schema>

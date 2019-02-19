@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<coberturas>
+    <cobertura>
+        <Titulo>Incêndio</Titulo>
+        <Descricao>Seguro para incêncios.</Descricao>
+    </cobertura>
+    <cobertura>
+        <Titulo>Inundação</Titulo>
+        <Descricao>Seguro para inundações.</Descricao>
+    </cobertura>
+    <cobertura>
+        <Titulo>Tempestade</Titulo>
+        <Descricao>Seguro para tempestades.</Descricao>
+    </cobertura>
+    <cobertura>
+        <Titulo>Roubo</Titulo>
+        <Descricao>Seguro para roubos.</Descricao>
+    </cobertura>
+    <cobertura>
+        <Titulo>Furto</Titulo>
+        <Descricao>Seguro para furtos.</Descricao>
+    </cobertura>
+    <cobertura>
+        <Titulo>Elétrico</Titulo>
+        <Descricao>Seguro para choques elétricos.</Descricao>
+    </cobertura>
+    <cobertura>
+        <Titulo>Vandalismo</Titulo>
+        <Descricao>Seguro para vandalismo.</Descricao>
+    </cobertura>
+    <cobertura>
+        <Titulo>Queda de Raio</Titulo>
+        <Descricao>Seguro para queda de raios.</Descricao>
+    </cobertura>
+    <cobertura>
+        <Titulo>Explosão</Titulo>
+        <Descricao>Seguro para explosões.</Descricao>
+    </cobertura>
+</coberturas>

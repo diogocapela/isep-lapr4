@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<casos>
+    <caso>
+        <objetos_segurados>
+            <objeto_seguro>
+                <descricao>Casa Caso A</descricao>
+                <lat>34.91728</lat>
+                <lng>94.85971</lng>
+                <coberturas>
+                    <cobertura>
+                        <titulo_cobertura>Incêndio</titulo_cobertura>
+                        <descricao_cobertura>Cobertura para incêndios</descricao_cobertura>
+                    </cobertura>
+                    <cobertura>
+                        <titulo_cobertura>Roubo</titulo_cobertura>
+                        <descricao_cobertura>Cobertura para roubos</descricao_cobertura>
+                    </cobertura>
+                </coberturas>
+            </objeto_seguro>
+            <objeto_seguro>
+                <descricao>Carro Caso A</descricao>
+                <lat>41.84153</lat>
+                <lng>27.56469</lng>
+                <coberturas>
+                    <cobertura>
+                        <titulo_cobertura>Incêndio</titulo_cobertura>
+                        <descricao_cobertura>Cobertura para incêndios</descricao_cobertura>
+                    </cobertura>
+                </coberturas>
+            </objeto_seguro>
+        </objetos_segurados>
+        <validacao>nao</validacao>
+    </caso>
+    <caso>
+        <objetos_segurados>
+            <objeto_seguro>
+                <descricao>Mota Caso B</descricao>
+                <lat>34.23896</lat>
+                <lng>-94.28439</lng>
+                <coberturas>
+                    <cobertura>
+                        <titulo_cobertura>Roubo</titulo_cobertura>
+                        <descricao_cobertura>Cobertura para roubos</descricao_cobertura>
+                    </cobertura>
+                </coberturas>
+            </objeto_seguro>
+        </objetos_segurados>
+        <validacao>nao</validacao>
+    </caso>
+    <caso>
+        <objetos_segurados>
+            <objeto_seguro>
+                <descricao>Mota Caso B</descricao>
+                <lat>34.23896</lat>
+                <lng>-94.28439</lng>
+                <coberturas>
+                    <cobertura>
+                        <titulo_cobertura>Roubo</titulo_cobertura>
+                        <descricao_cobertura>Cobertura para roubos</descricao_cobertura>
+                    </cobertura>
+                </coberturas>
+            </objeto_seguro>
+        </objetos_segurados>
+        <validacao>nao</validacao>
+    </caso>
+</casos>

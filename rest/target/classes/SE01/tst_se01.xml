@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<caso>
+    <objetos_segurados>
+        <objeto_seguro>
+            <descricao>a</descricao>
+            <lat>2.0</lat>
+            <lng>3.2</lng>
+            <coberturas>
+                <cobertura>
+                    <titulo_cobertura>ccc</titulo_cobertura>
+                    <descricao_cobertura>cccc</descricao_cobertura>
+                </cobertura>
+                <cobertura>
+                    <titulo_cobertura>c</titulo_cobertura>
+                    <descricao_cobertura>cc</descricao_cobertura>
+                </cobertura>
+            </coberturas>
+        </objeto_seguro>
+        <objeto_seguro>
+            <descricao>b</descricao>
+            <lat>4</lat>
+            <lng>5.5</lng>
+            <coberturas>
+                <cobertura>
+                    <titulo_cobertura>c</titulo_cobertura>
+                    <descricao_cobertura>cc</descricao_cobertura>
+                </cobertura>
+            </coberturas>
+        </objeto_seguro>
+    </objetos_segurados>
+    <validacao></validacao>
+</caso>

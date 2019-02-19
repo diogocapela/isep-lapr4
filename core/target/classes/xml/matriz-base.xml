@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<base>
+    <celula>
+        <Cobertura>Tempestade</Cobertura>
+        <Envolvente>Bombeiros</Envolvente>
+        <FatorRisco>Distância Mínima</FatorRisco>
+        <Consideracao>true</Consideracao>
+    </celula>
+    <celula>
+        <Cobertura>Tempestade</Cobertura>
+        <Envolvente>Bombeiros</Envolvente>
+        <FatorRisco>Tempo Mínimo</FatorRisco>
+        <Consideracao>true</Consideracao>
+    </celula>
+    <celula>
+        <Cobertura>Tempestade</Cobertura>
+        <Envolvente>Floresta</Envolvente>
+        <FatorRisco>Área</FatorRisco>
+        <Consideracao>false</Consideracao>
+    </celula>
+    <celula>
+        <Cobertura>Inundação</Cobertura>
+        <Envolvente>Bombeiros</Envolvente>
+        <FatorRisco>Distância Mínima</FatorRisco>
+        <Consideracao>true</Consideracao>
+    </celula>
+    <celula>
+        <Cobertura>Inundação</Cobertura>
+        <Envolvente>Bombeiros</Envolvente>
+        <FatorRisco>Tempo Mínimo</FatorRisco>
+        <Consideracao>true</Consideracao>
+    </celula>
+    <celula>
+        <Cobertura>Inundação</Cobertura>
+        <Envolvente>Floresta</Envolvente>
+        <FatorRisco>Área</FatorRisco>
+        <Consideracao>false</Consideracao>
+    </celula>
+</base>

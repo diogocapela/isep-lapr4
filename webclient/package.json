@@ -1,0 +1,38 @@
+{
+    "name": "webclient",
+    "version": "0.0.1",
+    "private": true,
+    "scripts": {
+        "clean": "rm -rf node_modules && rm package-lock.json",
+        "start": "react-scripts start",
+        "build": "react-scripts build",
+        "test": "react-scripts test",
+        "eject": "react-scripts eject"
+    },
+    "dependencies": {
+        "@material-ui/core": "^4.0.0-rc.0",
+        "@material-ui/icons": "^4.0.1",
+        "lodash": "^4.17.11",
+        "mdi-react": "^5.4.0",
+        "react": "^16.8.6",
+        "react-dom": "^16.8.6",
+        "react-router": "^5.0.0",
+        "react-router-dom": "^5.0.0",
+        "react-scripts": "3.0.1"
+    },
+    "eslintConfig": {
+        "extends": "react-app"
+    },
+    "browserslist": {
+        "production": [
+            ">0.2%",
+            "not dead",
+            "not op_mini all"
+        ],
+        "development": [
+            "last 1 chrome version",
+            "last 1 firefox version",
+            "last 1 safari version"
+        ]
+    }
+}

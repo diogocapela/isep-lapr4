@@ -1,0 +1,69 @@
+<xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema" elementFormDefault="qualified">
+
+    <!-- TCobertura -->
+
+    <xsd:complexType name="TCobertura">
+        <xsd:all>
+            <xsd:element name="titulo_cobertura" minOccurs="1" maxOccurs="1" />
+            <xsd:element name="descricao_cobertura" minOccurs="1" maxOccurs="1" />
+        </xsd:all>
+    </xsd:complexType>
+
+    <!-- TCoberturas -->
+
+    <xsd:complexType name="TCoberturas">
+        <xsd:sequence>
+            <xsd:element name="cobertura" type="TCobertura" minOccurs="1" maxOccurs="unbounded" />
+        </xsd:sequence>
+    </xsd:complexType>
+
+    <!-- TObjetoSeguro -->
+
+    <xsd:complexType name="TObjetoSeguro">
+        <xsd:all>
+            <xsd:element name="descricao" minOccurs="1" maxOccurs="1" />
+            <xsd:element name="lat" type="xsd:decimal" minOccurs="1" maxOccurs="1" />
+            <xsd:element name="lng" type="xsd:decimal" minOccurs="1" maxOccurs="1" />
+            <xsd:element name="coberturas" type="TCoberturas" minOccurs="1" maxOccurs="1" />
+        </xsd:all>
+    </xsd:complexType>
+
+    <!-- TObjetosSegurados -->
+
+    <xsd:complexType name="TObjetosSegurados">
+        <xsd:sequence>
+            <xsd:element name="objeto_seguro" type="TObjetoSeguro" minOccurs="1" maxOccurs="unbounded" />
+        </xsd:sequence>
+    </xsd:complexType>
+
+    <!-- TValidacao -->
+
+    <xsd:simpleType name="TValidacao">
+        <xsd:restriction base="xsd:token">
+            <xsd:whiteSpace value="collapse"/>
+            <xsd:enumeration value="sim"/>
+            <xsd:enumeration value="nao"/>
+        </xsd:restriction>
+    </xsd:simpleType>
+
+    <!-- TCaso -->
+
+    <xsd:complexType name="TCaso">
+        <xsd:all>
+            <xsd:element name="validacao" type="TValidacao" minOccurs="1" maxOccurs="1" />
+            <xsd:element name="objetos_segurados" type="TObjetosSegurados" minOccurs="1" maxOccurs="1" />
+        </xsd:all>
+    </xsd:complexType>
+
+
+    <!-- TCasos -->
+
+    <xsd:complexType name="TCasos">
+        <xsd:sequence>
+            <xsd:element name="caso" type="TCaso" minOccurs="1" maxOccurs="unbounded" />
+        </xsd:sequence>
+    </xsd:complexType>
+
+    <xsd:element name="casos" type="TCasos"/>
+
+</xsd:schema>

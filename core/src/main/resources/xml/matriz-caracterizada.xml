@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MatrizCaracterizada>
+    <CelulaCaracterizada>
+        <Cobertura>Tempestade</Cobertura>
+        <Envolvente>Bombeiros</Envolvente>
+        <FatorRisco>Distância Mínima</FatorRisco>
+        <Consideracao>true</Consideracao>
+        <Peso>2</Peso>
+        <Necessidade>Facultativo</Necessidade>
+        <Contribuicao>Negativa</Contribuicao>
+    </CelulaCaracterizada>
+    <CelulaCaracterizada>
+        <Cobertura>Tempestade</Cobertura>
+        <Envolvente>Bombeiros</Envolvente>
+        <FatorRisco>Tempo Mínimo</FatorRisco>
+        <Consideracao>true</Consideracao>
+        <Peso>1</Peso>
+        <Necessidade>Facultativo</Necessidade>
+        <Contribuicao>Negativa</Contribuicao>
+    </CelulaCaracterizada>
+    <CelulaCaracterizada>
+        <Cobertura>Tempestade</Cobertura>
+        <Envolvente>Floresta</Envolvente>
+        <FatorRisco>Área</FatorRisco>
+        <Consideracao>false</Consideracao>
+        <Peso>4</Peso>
+        <Necessidade>Obrigatório</Necessidade>
+        <Contribuicao>Positiva</Contribuicao>
+    </CelulaCaracterizada>
+    <CelulaCaracterizada>
+        <Cobertura>Inundação</Cobertura>
+        <Envolvente>Bombeiros</Envolvente>
+        <FatorRisco>Distância Mínima</FatorRisco>
+        <Consideracao>true</Consideracao>
+        <Peso>5</Peso>
+        <Necessidade>Obrigatório</Necessidade>
+        <Contribuicao>Positiva</Contribuicao>
+    </CelulaCaracterizada>
+    <CelulaCaracterizada>
+        <Cobertura>Inundação</Cobertura>
+        <Envolvente>Bombeiros</Envolvente>
+        <FatorRisco>Tempo Mínimo</FatorRisco>
+        <Consideracao>true</Consideracao>
+        <Peso>2</Peso>
+        <Necessidade>Facultativo</Necessidade>
+        <Contribuicao>Negativa</Contribuicao>
+    </CelulaCaracterizada>
+    <CelulaCaracterizada>
+        <Cobertura>Inundação</Cobertura>
+        <Envolvente>Floresta</Envolvente>
+        <FatorRisco>Área</FatorRisco>
+        <Consideracao>false</Consideracao>
+        <Peso>5</Peso>
+        <Necessidade>Obrigatório</Necessidade>
+        <Contribuicao>Positiva</Contribuicao>
+    </CelulaCaracterizada>
+</MatrizCaracterizada>

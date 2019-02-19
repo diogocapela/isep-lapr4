@@ -1,0 +1,21 @@
+<xs:schema attributeFormDefault="unqualified" elementFormDefault="qualified" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+    <xs:element name="root" type="rootType"/>
+    <xs:complexType name="outputType">
+        <xs:sequence>
+            <xs:element type="xs:string" name="message" minOccurs="1" />
+            <xs:element type="xs:short" name="idCaso" minOccurs="0" maxOccurs="unbounded"/>
+            <xs:element type="xs:string" name="estado" minOccurs="0" maxOccurs="unbounded"/>
+            <xs:element type="xs:byte" name="avaliacao" minOccurs="0" maxOccurs="unbounded"/>
+        </xs:sequence>
+    </xs:complexType>
+    <xs:complexType name="outputsType">
+        <xs:sequence>
+            <xs:element type="outputType" name="output" maxOccurs="unbounded" minOccurs="0"/>
+        </xs:sequence>
+    </xs:complexType>
+    <xs:complexType name="rootType">
+        <xs:sequence>
+            <xs:element type="outputsType" name="outputs"/>
+        </xs:sequence>
+    </xs:complexType>
+</xs:schema>

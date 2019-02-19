@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Envolventes>
+    <Envolvente>
+        <Titulo>Policia</Titulo>
+        <Descricao>Envolvente em Polícia.</Descricao>
+    </Envolvente>
+    <Envolvente>
+        <Titulo>Bombeiros</Titulo>
+        <Descricao>Envolvente em Bombeiros.</Descricao>
+    </Envolvente>
+    <Envolvente>
+        <Titulo>Zona Urbana</Titulo>
+        <Descricao>Envolvente em Zona Urbana.</Descricao>
+    </Envolvente>
+    <Envolvente>
+        <Titulo>IE Saúde</Titulo>
+        <Descricao>Envolvente em IE Saúde.</Descricao>
+    </Envolvente>
+    <Envolvente>
+        <Titulo>Floresta</Titulo>
+        <Descricao>Envolvente em Floresta.</Descricao>
+    </Envolvente>
+    <Envolvente>
+        <Titulo>Vias Acesso</Titulo>
+        <Descricao>Envolvente em Vias Acesso.</Descricao>
+    </Envolvente>
+    <Envolvente>
+        <Titulo>Hospital</Titulo>
+        <Descricao>Envolvente em Hospital.</Descricao>
+    </Envolvente>
+    <Envolvente>
+        <Titulo>Curso de Água</Titulo>
+        <Descricao>Envolvente em Curso de Água.</Descricao>
+    </Envolvente>
+</Envolventes>

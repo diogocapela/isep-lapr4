@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<FatoresRiscos>
+    <FatorRisco>
+        <Titulo>Densidade</Titulo>
+        <Descricao>Densidade de...</Descricao>
+    </FatorRisco>
+    <FatorRisco>
+        <Titulo>Distância Mínima</Titulo>
+        <Descricao>Distância mínima a...</Descricao>
+    </FatorRisco>
+    <FatorRisco>
+        <Titulo>Tempo de Chegada</Titulo>
+        <Descricao>Tempo de Chegada de/a...</Descricao>
+    </FatorRisco>
+    <FatorRisco>
+        <Titulo>Quantidade</Titulo>
+        <Descricao>Quantidade de...</Descricao>
+    </FatorRisco>
+    <FatorRisco>
+        <Titulo>Tempo Mínimo</Titulo>
+        <Descricao>Tempo mínimo de...</Descricao>
+    </FatorRisco>
+    <FatorRisco>
+        <Titulo>Área</Titulo>
+        <Descricao>Area...</Descricao>
+    </FatorRisco>
+</FatoresRiscos>

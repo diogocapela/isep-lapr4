@@ -1,0 +1,34 @@
+<xsd:schema
+    xmlns:xsd="http://www.w3.org/2001/XMLSchema"
+    elementFormDefault="qualified">
+    <xsd:element name="envolventes" type="envolventes"/>
+    <xsd:complexType name="envolventes">
+        <xsd:sequence>
+            <xsd:element name="envolvente" type="envolvente" minOccurs="1" maxOccurs="unbounded"/>
+        </xsd:sequence>
+    </xsd:complexType>
+    <xsd:complexType name="envolvente">
+        <xsd:all>
+            <xsd:element name="distrito" type="distrito" minOccurs="1" maxOccurs="1"/>
+            <xsd:element name="tipo" type="tipo" minOccurs="1" maxOccurs="1"/>
+            <xsd:element name="descricao" type="descricao" minOccurs="1" maxOccurs="1"/>
+            <xsd:element name="latitude" type="latitude" minOccurs="1" maxOccurs="1"/>
+            <xsd:element name="longitude" type="longitude" minOccurs="1" maxOccurs="1"/>
+        </xsd:all>
+    </xsd:complexType>
+    <xsd:simpleType name="distrito">
+        <xsd:restriction base="xsd:string"/>
+    </xsd:simpleType>
+    <xsd:simpleType name="tipo">
+        <xsd:restriction base="xsd:string"/>
+    </xsd:simpleType>
+    <xsd:simpleType name="descricao">
+        <xsd:restriction base="xsd:string"/>
+    </xsd:simpleType>
+    <xsd:simpleType name="latitude">
+        <xsd:restriction base="xsd:decimal"/>
+    </xsd:simpleType>
+    <xsd:simpleType name="longitude">
+        <xsd:restriction base="xsd:decimal"/>
+    </xsd:simpleType>
+</xsd:schema>

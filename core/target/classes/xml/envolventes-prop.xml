@@ -1,0 +1,11 @@
+<?xml version="1.0"?>
+<Envolventes>
+    <Envolvente Titulo="Policia" Descricao="Envolvente em Polícia."></Envolvente>
+    <Envolvente Titulo="Bombeiros" Descricao="Envolvente em Bombeiros."></Envolvente>
+    <Envolvente Titulo="Zona Urbana" Descricao="Envolvente em Zona Urbana."></Envolvente>
+    <Envolvente Titulo="IE Saúde" Descricao="Envolvente em IE Saúde."></Envolvente>
+    <Envolvente Titulo="Floresta" Descricao="Envolvente em Floresta."></Envolvente>
+    <Envolvente Titulo="Vias Acesso" Descricao="Envolvente em Vias Acesso."></Envolvente>
+    <Envolvente Titulo="Hospital" Descricao="Envolvente em Hospital."></Envolvente>
+    <Envolvente Titulo="Curso de Água" Descricao="Envolvente em Curso de Água."></Envolvente>
+</Envolventes>

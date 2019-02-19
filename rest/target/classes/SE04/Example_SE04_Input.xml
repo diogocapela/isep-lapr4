@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<comparacao>
+    <objeto_seguro>
+        <descricao>Objecto da Travessa de Cedofeita</descricao>
+        <lat>41.150098</lat>
+        <lng>-8.614949</lng>
+        <coberturas>
+            <cobertura>
+                <titulo_cobertura>Incendio</titulo_cobertura>
+                <descricao_cobertura>Seguro para incêncios</descricao_cobertura>
+            </cobertura>
+            <cobertura>
+                <titulo_cobertura>Inundacao</titulo_cobertura>
+                <descricao_cobertura>Seguro para inundações</descricao_cobertura>
+            </cobertura>
+            <cobertura>
+                <titulo_cobertura>Tempestade</titulo_cobertura>
+                <descricao_cobertura>Seguro para tempestades</descricao_cobertura>
+            </cobertura>
+        </coberturas>
+    </objeto_seguro>
+    <matrizes>
+        <matrizIdA>53</matrizIdA>
+        <matrizIdB>72</matrizIdB>
+    </matrizes>
+</comparacao>

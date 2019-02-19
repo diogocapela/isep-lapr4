@@ -1,0 +1,81 @@
+{
+    "casos": {
+        "caso": [
+            {
+                "objetos_segurados": {
+                    "objeto_seguro": [
+                        {
+                            "descricao": "Casa Caso A",
+                            "lat": "34.91728",
+                            "lng": "94.85971",
+                            "coberturas": {
+                                "cobertura": [
+                                    {
+                                        "titulo_cobertura": "Incêndio",
+                                        "descricao_cobertura": "Cobertura para incêndios"
+                                    },
+                                    {
+                                        "titulo_cobertura": "Roubo",
+                                        "descricao_cobertura": "Cobertura para roubos"
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "descricao": "Carro Caso A",
+                            "lat": "41.84153",
+                            "lng": "27.56469",
+                            "coberturas": {
+                                "cobertura": {
+                                    "titulo_cobertura": "Incêndio",
+                                    "descricao_cobertura": "Cobertura para incêndios"
+                                }
+                            }
+                        }
+                    ]
+                },
+                "validacao": "nao"
+            },
+            {
+                "objetos_segurados": {
+                    "objeto_seguro": [
+                        {
+                            "descricao": "Mota Caso B",
+                            "lat": "34.23896",
+                            "lng": "-94.28439",
+                            "coberturas": {
+                                "cobertura": [
+                                    {
+                                        "titulo_cobertura": "Roubo",
+                                        "descricao_cobertura": "Cobertura para roubos"
+                                    }
+                                ]
+                            }
+                        }
+                    ]
+                },
+                "validacao": "nao"
+            },
+            {
+                "objetos_segurados": {
+                    "objeto_seguro": [
+                        {
+                            "descricao": "Mota Caso B",
+                            "lat": "34.23896",
+                            "lng": "-94.28439",
+                            "coberturas": {
+                                "cobertura": [
+                                    {
+                                        "titulo_cobertura": "Roubo",
+                                        "descricao_cobertura": "Cobertura para roubos"
+                                    }
+                                ]
+                            }
+                        }
+                    ]
+                },
+                "validacao": "nao"
+            }
+        ]
+    }
+}

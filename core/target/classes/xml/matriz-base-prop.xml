@@ -1,0 +1,9 @@
+<?xml version="1.0"?>
+<base>
+    <celula Cobertura="Tempestade" Envolvente="Bombeiros" FatorRisco="Distância Mínima" Consideracao="true"></celula>
+    <celula Cobertura="Tempestade" Envolvente="Bombeiros" FatorRisco="Tempo Mínimo" Consideracao="true"></celula>
+    <celula Cobertura="Tempestade" Envolvente="Floresta" FatorRisco="Área" Consideracao="false"></celula>
+    <celula Cobertura="Inundação" Envolvente="Bombeiros" FatorRisco="Distância Mínima" Consideracao="true"></celula>
+    <celula Cobertura="Inundação" Envolvente="Bombeiros" FatorRisco="Tempo Mínimo" Consideracao="true"></celula>
+    <celula Cobertura="Inundação" Envolvente="Floresta" FatorRisco="Área" Consideracao="false"></celula>
+</base>

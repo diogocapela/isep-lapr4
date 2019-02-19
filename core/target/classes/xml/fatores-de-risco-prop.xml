@@ -1,0 +1,9 @@
+<?xml version="1.0"?>
+<FatoresRiscos>
+    <FatorRisco Titulo="Densidade" Descricao="Densidade de..."></FatorRisco>
+    <FatorRisco Titulo="Distância Mínima" Descricao=" Distância mínima a..."></FatorRisco>
+    <FatorRisco Titulo="Tempo de Chegada" Descricao=" Tempo de Chegada de/a..."></FatorRisco>
+    <FatorRisco Titulo="Quantidade" Descricao=" Quantidade de..."></FatorRisco>
+    <FatorRisco Titulo="Tempo Mínimo" Descricao=" Tempo mínimo de..."></FatorRisco>
+    <FatorRisco Titulo="Área" Descricao="Area..."></FatorRisco>
+</FatoresRiscos>

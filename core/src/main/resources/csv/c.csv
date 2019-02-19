@@ -1,0 +1,10 @@
+Tempestade,Bombeiros,Distancia Minima,2,Facultativo,Negativa
+Tempestade,Bombeiros,Tempo Minimo,1,Facultativo,Negativa
+Inundacao,Bombeiros,Distancia Minima,4,Obrigatorio,Positiva
+Inundacao,Bombeiros,Tempo Minimo,5,Obrigatorio,Positiva
+Explosao,Bombeiros,Tempo Minimo,2,Facultativo,Negativa
+Explosao,Bombeiros,Quantidade,5,Obrigatorio,Positiva
+Roubo,Policia,Tempo de Chegada,3,Obrigatorio,Positiva
+Roubo,Policia,Distancia Minima,3,Facultativo,Negativa
+Calamidade,Hospital,Tempo Minimo,3,Obrigatorio,Positiva
+Calamidade,Hospital,Distancia Minima,3,Facultativo,Positiva

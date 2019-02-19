@@ -1,0 +1,93 @@
+2019-06-11 19:49:27 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLException: Table "CASO" not found; SQL statement:
+SELECT ID FROM CASO WHERE ID <> ID [42102-196]
+2019-06-11 19:49:27 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLException: Table "OBJETOSEGURO" not found; SQL statement:
+SELECT ID FROM OBJETOSEGURO WHERE ID <> ID [42102-196]
+2019-06-11 19:49:27 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLException: Table "CELULA" not found; SQL statement:
+SELECT ID FROM Celula WHERE ID <> ID [42102-196]
+2019-06-11 19:49:27 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLException: Table "CELULABASE" not found; SQL statement:
+SELECT ID FROM CELULABASE WHERE ID <> ID [42102-196]
+2019-06-11 19:49:27 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLException: Table "CELULACARACTERIZADA" not found; SQL statement:
+SELECT ID FROM CELULACARACTERIZADA WHERE ID <> ID [42102-196]
+2019-06-11 19:49:27 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLException: Table "CELULADETALHADA" not found; SQL statement:
+SELECT ID FROM CELULADETALHADA WHERE ID <> ID [42102-196]
+2019-06-11 19:49:27 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLException: Table "MATRIZ" not found; SQL statement:
+SELECT ID FROM MATRIZ WHERE ID <> ID [42102-196]
+2019-06-11 19:49:27 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLException: Table "COBERTURA" not found; SQL statement:
+SELECT ID FROM COBERTURA WHERE ID <> ID [42102-196]
+2019-06-11 19:49:27 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLException: Table "ENVOLVENTE" not found; SQL statement:
+SELECT ID FROM ENVOLVENTE WHERE ID <> ID [42102-196]
+2019-06-11 19:49:27 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLException: Table "FATORRISCO" not found; SQL statement:
+SELECT ID FROM FATORRISCO WHERE ID <> ID [42102-196]
+2019-06-11 19:49:27 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLException: Table "USER" not found; SQL statement:
+SELECT ID FROM USER WHERE ID <> ID [42102-196]
+2019-06-11 19:49:27 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLException: Table "EVENT" not found; SQL statement:
+SELECT ID FROM EVENT WHERE ID <> ID [42102-196]
+2019-06-11 19:49:27 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLException: Table "CASO_OBJETOSEGURO" not found; SQL statement:
+SELECT objetosSegurados_ID FROM CASO_OBJETOSEGURO WHERE objetosSegurados_ID <> objetosSegurados_ID [42102-196]
+2019-06-11 19:49:27 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLException: Table "OBJETOSEGURO_COBERTURA" not found; SQL statement:
+SELECT coberturas_ID FROM OBJETOSEGURO_COBERTURA WHERE coberturas_ID <> coberturas_ID [42102-196]
+2019-06-11 19:49:27 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLException: Table "MATRIZ_CELULABASE" not found; SQL statement:
+SELECT celulas_ID FROM MATRIZ_CELULABASE WHERE celulas_ID <> celulas_ID [42102-196]
+2019-06-11 19:49:27 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLException: Table "SEQUENCE" not found; SQL statement:
+SELECT SEQ_NAME FROM SEQUENCE WHERE SEQ_NAME <> SEQ_NAME [42102-196]
+2019-06-11 19:49:54 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLException: Table "CASO" not found; SQL statement:
+SELECT ID FROM CASO WHERE ID <> ID [42102-196]
+2019-06-11 19:49:54 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLException: Table "OBJETOSEGURO" not found; SQL statement:
+SELECT ID FROM OBJETOSEGURO WHERE ID <> ID [42102-196]
+2019-06-11 19:49:54 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLException: Table "CELULA" not found; SQL statement:
+SELECT ID FROM Celula WHERE ID <> ID [42102-196]
+2019-06-11 19:49:54 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLException: Table "CELULABASE" not found; SQL statement:
+SELECT ID FROM CELULABASE WHERE ID <> ID [42102-196]
+2019-06-11 19:49:54 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLException: Table "CELULACARACTERIZADA" not found; SQL statement:
+SELECT ID FROM CELULACARACTERIZADA WHERE ID <> ID [42102-196]
+2019-06-11 19:49:54 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLException: Table "CELULADETALHADA" not found; SQL statement:
+SELECT ID FROM CELULADETALHADA WHERE ID <> ID [42102-196]
+2019-06-11 19:49:54 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLException: Table "MATRIZ" not found; SQL statement:
+SELECT ID FROM MATRIZ WHERE ID <> ID [42102-196]
+2019-06-11 19:49:54 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLException: Table "COBERTURA" not found; SQL statement:
+SELECT ID FROM COBERTURA WHERE ID <> ID [42102-196]
+2019-06-11 19:49:54 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLException: Table "ENVOLVENTE" not found; SQL statement:
+SELECT ID FROM ENVOLVENTE WHERE ID <> ID [42102-196]
+2019-06-11 19:49:54 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLException: Table "FATORRISCO" not found; SQL statement:
+SELECT ID FROM FATORRISCO WHERE ID <> ID [42102-196]
+2019-06-11 19:49:54 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLException: Table "USER" not found; SQL statement:
+SELECT ID FROM USER WHERE ID <> ID [42102-196]
+2019-06-11 19:49:54 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLException: Table "CASO_OBJETOSEGURO" not found; SQL statement:
+SELECT objetosSegurados_ID FROM CASO_OBJETOSEGURO WHERE objetosSegurados_ID <> objetosSegurados_ID [42102-196]
+2019-06-11 19:49:54 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLException: Table "OBJETOSEGURO_COBERTURA" not found; SQL statement:
+SELECT coberturas_ID FROM OBJETOSEGURO_COBERTURA WHERE coberturas_ID <> coberturas_ID [42102-196]
+2019-06-11 19:49:54 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLException: Table "MATRIZ_CELULABASE" not found; SQL statement:
+SELECT celulas_ID FROM MATRIZ_CELULABASE WHERE celulas_ID <> celulas_ID [42102-196]
+2019-06-11 19:49:54 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLException: Table "SEQUENCE" not found; SQL statement:
+SELECT SEQ_NAME FROM SEQUENCE WHERE SEQ_NAME <> SEQ_NAME [42102-196]

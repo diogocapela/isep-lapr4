@@ -1,0 +1,29 @@
+{
+    "comparacao": {
+        "objeto_seguro": {
+            "descricao": "Objecto da Travessa de Cedofeita",
+            "lat": "41.150098",
+            "lng": "-8.614949",
+            "coberturas": {
+                "cobertura": [
+                    {
+                        "titulo_cobertura": "Incendio",
+                        "descricao_cobertura": "Seguro para incêncios"
+                    },
+                    {
+                        "titulo_cobertura": "Inundacao",
+                        "descricao_cobertura": "Seguro para inundações"
+                    },
+                    {
+                        "titulo_cobertura": "Tempestade",
+                        "descricao_cobertura": "Seguro para tempestades"
+                    }
+                ]
+            }
+        },
+        "matrizes": {
+            "matrizIdA": "53",
+            "matrizIdB": "72"
+        }
+    }
+}

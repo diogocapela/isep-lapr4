@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MatrizDetalhada>
+    <CelulaDetalhada>
+        <Cobertura>Tempestade</Cobertura>
+        <Envolvente>Bombeiros</Envolvente>
+        <FatorRisco>Distância Mínima</FatorRisco>
+        <Consideracao>true</Consideracao>
+        <Peso>2</Peso>
+        <Necessidade>Facultativo</Necessidade>
+        <Contribuicao>Negativa</Contribuicao>
+        <EscalaLow>1</EscalaLow>
+        <EscalaMedium>2</EscalaMedium>
+        <EscalaHigh>3</EscalaHigh>
+    </CelulaDetalhada>
+    <CelulaDetalhada>
+        <Cobertura>Tempestade</Cobertura>
+        <Envolvente>Bombeiros</Envolvente>
+        <FatorRisco>Tempo Mínimo</FatorRisco>
+        <Consideracao>true</Consideracao>
+        <Peso>1</Peso>
+        <Necessidade>Facultativo</Necessidade>
+        <Contribuicao>Negativa</Contribuicao>
+        <EscalaLow>2</EscalaLow>
+        <EscalaMedium>4</EscalaMedium>
+        <EscalaHigh>5</EscalaHigh>
+    </CelulaDetalhada>
+    <CelulaDetalhada>
+        <Cobertura>Tempestade</Cobertura>
+        <Envolvente>Floresta</Envolvente>
+        <FatorRisco>Área</FatorRisco>
+        <Consideracao>false</Consideracao>
+        <Peso>4</Peso>
+        <Necessidade>Obrigatório</Necessidade>
+        <Contribuicao>Positiva</Contribuicao>
+        <EscalaLow>2</EscalaLow>
+        <EscalaMedium>3</EscalaMedium>
+        <EscalaHigh>5</EscalaHigh>
+    </CelulaDetalhada>
+    <CelulaDetalhada>
+        <Cobertura>Inundação</Cobertura>
+        <Envolvente>Bombeiros</Envolvente>
+        <FatorRisco>Distância Mínima</FatorRisco>
+        <Consideracao>true</Consideracao>
+        <Peso>5</Peso>
+        <Necessidade>Obrigatório</Necessidade>
+        <Contribuicao>Positiva</Contribuicao>
+        <EscalaLow>1</EscalaLow>
+        <EscalaMedium>3</EscalaMedium>
+        <EscalaHigh>5</EscalaHigh>
+    </CelulaDetalhada>
+    <CelulaDetalhada>
+        <Cobertura>Inundação</Cobertura>
+        <Envolvente>Bombeiros</Envolvente>
+        <FatorRisco>Tempo Mínimo</FatorRisco>
+        <Consideracao>true</Consideracao>
+        <Peso>2</Peso>
+        <Necessidade>Facultativo</Necessidade>
+        <Contribuicao>Negativa</Contribuicao>
+        <EscalaLow>2</EscalaLow>
+        <EscalaMedium>4</EscalaMedium>
+        <EscalaHigh>6</EscalaHigh>
+    </CelulaDetalhada>
+    <CelulaDetalhada>
+        <Cobertura>Inundação</Cobertura>
+        <Envolvente>Floresta</Envolvente>
+        <FatorRisco>Área</FatorRisco>
+        <Consideracao>false</Consideracao>
+        <Peso>5</Peso>
+        <Necessidade>Obrigatório</Necessidade>
+        <Contribuicao>Positiva</Contribuicao>
+        <EscalaLow>1</EscalaLow>
+        <EscalaMedium>3</EscalaMedium>
+        <EscalaHigh>4</EscalaHigh>
+    </CelulaDetalhada>
+</MatrizDetalhada>

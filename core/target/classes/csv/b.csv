@@ -1,0 +1,10 @@
+Tempestade,Bombeiros,Distancia Minima
+Tempestade,Bombeiros,Tempo Minimo
+Inundacao,Bombeiros,Distancia Minima
+Inundacao,Bombeiros,Tempo Minimo
+Explosao,Bombeiros,Tempo Minimo
+Explosao,Bombeiros,Quantidade
+Roubo,Policia,Tempo de Chegada
+Roubo,Policia,Distancia Minima
+Calamidade,Hospital,Tempo Minimo
+Calamidade,Hospital,Distancia Minima

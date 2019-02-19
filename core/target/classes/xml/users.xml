@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Users>
+    <User>
+        <email>rafa@mail.com</email>
+        <name>Rafa</name>
+    </User>
+    <User>
+        <email>vitorsilva@mail.com</email>
+        <name>Beneli</name>
+    </User>
+    <User>
+        <email>diogocapela@mail.com</email>
+        <name>Capela</name>
+    </User>
+    <User>
+        <email>teresa@mail.com</email>
+        <name>Teresa</name>
+    </User>
+    <User>
+        <email>filipe@mail.com</email>
+        <name>Filipe</name>
+    </User>
+</Users>

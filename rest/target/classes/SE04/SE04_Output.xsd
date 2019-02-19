@@ -1,0 +1,73 @@
+<xsd:schema
+    xmlns:xsd="http://www.w3.org/2001/XMLSchema"
+    elementFormDefault="qualified">
+    <xsd:element name="output" type="output"/>
+    <xsd:complexType name="output">
+        <xsd:sequence>
+            <xsd:element name="titulo" type="message" minOccurs="1" maxOccurs="1"/>
+            <xsd:element name ="local" type="local" minOccurs="1" maxOccurs="1"/>
+            <xsd:element name ="avaliacaoA" type="avaliacaoA" minOccurs="1" maxOccurs="1"/>
+            <xsd:element name ="avaliacaoB" type="avaliacaoB" minOccurs="1" maxOccurs="1"/>
+            <xsd:element name="sumario" type="message" minOccurs="1" maxOccurs="1"/>
+        </xsd:sequence>
+    </xsd:complexType>
+
+    <!-- Tipos Complexos-->
+    <!-- ======================================================================================== -->
+
+    <!--Local Type-->
+
+    <xsd:complexType name="local">
+        <xsd:sequence>
+            <xsd:element name="descricaoObjeto" type="message" minOccurs="1" maxOccurs="1"/>
+            <xsd:element name="latitude" type="message" minOccurs="1" maxOccurs="1"/>
+            <xsd:element name="longitude" type="message" minOccurs="1" maxOccurs="1"/>
+        </xsd:sequence>
+    </xsd:complexType>
+
+    <!--Avaliacao A Type-->
+
+    <xsd:complexType name="avaliacaoA">
+        <xsd:sequence>
+            <xsd:element name="simulacaoA" type="message" minOccurs="1" maxOccurs="1"/>
+            <xsd:element name="demonstracaoParte1" type="messageListA" minOccurs="1" maxOccurs="1"/>
+            <xsd:element name="indiceRiscoA" type="message" minOccurs="1" maxOccurs="1"/>
+        </xsd:sequence>
+    </xsd:complexType>
+
+    <!--Avaliacao B Type-->
+
+    <xsd:complexType name="avaliacaoB">
+        <xsd:sequence>
+            <xsd:element name="simulacaoB" type="message" minOccurs="1" maxOccurs="1"/>
+            <xsd:element name="demonstracaoParte2" type="messageListB" minOccurs="1" maxOccurs="1"/>
+            <xsd:element name="indiceRiscoB" type="message" minOccurs="1" maxOccurs="1"/>
+        </xsd:sequence>
+    </xsd:complexType>
+
+    <!-- MessageListA Type-->
+
+    <xsd:complexType name="messageListA">
+        <xsd:sequence>
+            <xsd:element name="demonstracaoA" type="message" minOccurs="1" maxOccurs="unbounded"/>
+        </xsd:sequence>
+    </xsd:complexType>
+
+    <!-- MessageListB Type-->
+
+    <xsd:complexType name="messageListB">
+        <xsd:sequence>
+            <xsd:element name="demonstracaoB" type="message" minOccurs="1" maxOccurs="unbounded"/>
+        </xsd:sequence>
+    </xsd:complexType>
+
+    <!-- Tipos Simples -->
+    <!-- ======================================================================================== -->
+
+    <!--Message Type-->
+
+    <xsd:simpleType name="message">
+        <xsd:restriction base="xsd:string"/>
+    </xsd:simpleType>
+
+</xsd:schema>

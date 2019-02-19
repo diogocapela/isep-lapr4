@@ -1,0 +1,353 @@
+{
+	"info": {
+		"_postman_id": "4ba1d0a5-e7d0-423e-86c6-fb5383bedad2",
+		"name": "LAPR4 Postman Collection",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "SE01 /submeter-pedido (JSON Input)",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"name": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n\t\"caso\": {\r\n\t\t\"objetos_segurados\": {\r\n\t\t\t\"objeto_seguro\": [\r\n\t\t\t\t{\r\n\t\t\t\t\t\"descricao\": \"a\",\r\n\t\t\t\t\t\"lat\": \"2.0\",\r\n\t\t\t\t\t\"lng\": \"3.2\",\r\n\t\t\t\t\t\"coberturas\": {\r\n\t\t\t\t\t\t\"cobertura\": [\r\n\t\t\t\t\t\t\t{\r\n\t\t\t\t\t\t\t\t\"titulo_cobertura\": \"ccc\",\r\n\t\t\t\t\t\t\t\t\"descricao_cobertura\": \"cccc\"\r\n\t\t\t\t\t\t\t},\r\n\t\t\t\t\t\t\t{\r\n\t\t\t\t\t\t\t\t\"titulo_cobertura\": \"c\",\r\n\t\t\t\t\t\t\t\t\"descricao_cobertura\": \"cc\"\r\n\t\t\t\t\t\t\t}\r\n\t\t\t\t\t\t]\r\n\t\t\t\t\t}\r\n\t\t\t\t},\r\n\t\t\t\t{\r\n\t\t\t\t\t\"descricao\": \"b\",\r\n\t\t\t\t\t\"lat\": \"4\",\r\n\t\t\t\t\t\"lng\": \"5.5\",\r\n\t\t\t\t\t\"coberturas\": {\r\n\t\t\t\t\t\t\"cobertura\": {\r\n\t\t\t\t\t\t\t\"titulo_cobertura\": \"c\",\r\n\t\t\t\t\t\t\t\"descricao_cobertura\": \"cc\"\r\n\t\t\t\t\t\t}\r\n\t\t\t\t\t}\r\n\t\t\t\t}\r\n\t\t\t]\r\n\t\t},\r\n\t\t\"validacao\": \"nao\"\r\n\t}\r\n}"
+				},
+				"url": {
+					"raw": "localhost:8080/submeter-pedido?resp=xml",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"submeter-pedido"
+					],
+					"query": [
+						{
+							"key": "resp",
+							"value": "xml"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "SE01 /submeter-pedido (XML Input)",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"name": "Content-Type",
+						"type": "text",
+						"value": "application/xml"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\r\n<caso>\r\n    <objetos_segurados>\r\n        <objeto_seguro>\r\n            <descricao>a</descricao>\r\n            <lat>2.0</lat>\r\n            <lng>3.2</lng>\r\n            <coberturas>\r\n                <cobertura>\r\n                    <titulo_cobertura>ccc</titulo_cobertura>\r\n                    <descricao_cobertura>cccc</descricao_cobertura>\r\n                </cobertura>\r\n                <cobertura>\r\n                    <titulo_cobertura>c</titulo_cobertura>\r\n                    <descricao_cobertura>cc</descricao_cobertura>\r\n                </cobertura>\r\n            </coberturas>\r\n        </objeto_seguro>\r\n        <objeto_seguro>\r\n            <descricao>b</descricao>\r\n            <lat>4</lat>\r\n            <lng>5.5</lng>\r\n            <coberturas>\r\n                <cobertura>\r\n                    <titulo_cobertura>c</titulo_cobertura>\r\n                    <descricao_cobertura>cc</descricao_cobertura>\r\n                </cobertura>\r\n            </coberturas>\r\n        </objeto_seguro>\r\n    </objetos_segurados>\r\n    <validacao></validacao>\r\n</caso>"
+				},
+				"url": {
+					"raw": "http://localhost:8080/submeter-pedido?resp=json",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"submeter-pedido"
+					],
+					"query": [
+						{
+							"key": "resp",
+							"value": "json"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "SE02 /obter-pedido/:id",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8080/obter-pedido/603?resp=xhtml",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"obter-pedido",
+						"603"
+					],
+					"query": [
+						{
+							"key": "resp",
+							"value": "xhtml"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "SE04 Comparar Avaliacao Objeto (JSON Input))",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"name": "Content-Type",
+						"value": "application/xml",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"comparacao\": {\r\n        \"objeto_seguro\": {\r\n            \"descricao\": \"Objecto da Travessa de Cedofeita\",\r\n            \"lat\": \"41.150098\",\r\n            \"lng\": \"-8.614949\",\r\n            \"coberturas\": {\r\n                \"cobertura\": [\r\n                    {\r\n                        \"titulo_cobertura\": \"Incendio\",\r\n                        \"descricao_cobertura\": \"Seguro para incêncios\"\r\n                    },\r\n                    {\r\n                        \"titulo_cobertura\": \"Inundacao\",\r\n                        \"descricao_cobertura\": \"Seguro para inundações\"\r\n                    },\r\n                    {\r\n                        \"titulo_cobertura\": \"Tempestade\",\r\n                        \"descricao_cobertura\": \"Seguro para tempestades\"\r\n                    }\r\n                ]\r\n            }\r\n        },\r\n        \"matrizes\": {\r\n            \"matrizIdA\": \"53\",\r\n            \"matrizIdB\": \"72\"\r\n        }\r\n    }\r\n}"
+				},
+				"url": {
+					"raw": "localhost:8080/comparar-avaliacao-objecto?resp=json",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"comparar-avaliacao-objecto"
+					],
+					"query": [
+						{
+							"key": "resp",
+							"value": "json"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "SE04 Comparar Avaliacao Objeto Copy (XML Input))",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"name": "Content-Type",
+						"value": "application/xml",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\r\n<comparacao>\r\n    <objeto_seguro>\r\n        <descricao>Objecto da Travessa de Cedofeita</descricao>\r\n        <lat>41.150098</lat>\r\n        <lng>-8.614949</lng>\r\n        <coberturas>\r\n            <cobertura>\r\n                <titulo_cobertura>Incendio</titulo_cobertura>\r\n                <descricao_cobertura>Seguro para incêncios</descricao_cobertura>\r\n            </cobertura>\r\n            <cobertura>\r\n                <titulo_cobertura>Inundacao</titulo_cobertura>\r\n                <descricao_cobertura>Seguro para inundações</descricao_cobertura>\r\n            </cobertura>\r\n            <cobertura>\r\n                <titulo_cobertura>Tempestade</titulo_cobertura>\r\n                <descricao_cobertura>Seguro para tempestades</descricao_cobertura>\r\n            </cobertura>\r\n        </coberturas>\r\n    </objeto_seguro>\r\n    <matrizes>\r\n        <matrizIdA>53</matrizIdA>\r\n        <matrizIdB>72</matrizIdB>\r\n    </matrizes>\r\n</comparacao>\r\n"
+				},
+				"url": {
+					"raw": "localhost:8080/comparar-avaliacao-objecto?resp=json",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"comparar-avaliacao-objecto"
+					],
+					"query": [
+						{
+							"key": "resp",
+							"value": "json"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "SE05 /submeter-conjunto-pedidos (JSON Input)",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"name": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"casos\": {\n        \"caso\": [\n            {\n                \"objetos_segurados\": {\n                    \"objeto_seguro\": [\n                        {\n                            \"descricao\": \"Casa Caso A\",\n                            \"lat\": \"34.91728\",\n                            \"lng\": \"94.85971\",\n                            \"coberturas\": {\n                                \"cobertura\": [\n                                    {\n                                        \"titulo_cobertura\": \"Incêndio\",\n                                        \"descricao_cobertura\": \"Cobertura para incêndios\"\n                                    },\n                                    {\n                                        \"titulo_cobertura\": \"Roubo\",\n                                        \"descricao_cobertura\": \"Cobertura para roubos\"\n                                    }\n                                ]\n                            }\n                        },\n                        {\n                            \"descricao\": \"Carro Caso A\",\n                            \"lat\": \"41.84153\",\n                            \"lng\": \"27.56469\",\n                            \"coberturas\": {\n                                \"cobertura\": {\n                                    \"titulo_cobertura\": \"Incêndio\",\n                                    \"descricao_cobertura\": \"Cobertura para incêndios\"\n                                }\n                            }\n                        }\n                    ]\n                },\n                \"validacao\": \"nao\"\n            },\n            {\n                \"objetos_segurados\": {\n                    \"objeto_seguro\": [\n                        {\n                            \"descricao\": \"Mota Caso B\",\n                            \"lat\": \"34.23896\",\n                            \"lng\": \"-94.28439\",\n                            \"coberturas\": {\n                                \"cobertura\": [\n                                    {\n                                        \"titulo_cobertura\": \"Roubo\",\n                                        \"descricao_cobertura\": \"Cobertura para roubos\"\n                                    }\n                                ]\n                            }\n                        }\n                    ]\n                },\n                \"validacao\": \"nao\"\n            },\n            {\n                \"objetos_segurados\": {\n                    \"objeto_seguro\": [\n                        {\n                            \"descricao\": \"Mota Caso B\",\n                            \"lat\": \"34.23896\",\n                            \"lng\": \"-94.28439\",\n                            \"coberturas\": {\n                                \"cobertura\": [\n                                    {\n                                        \"titulo_cobertura\": \"Roubo\",\n                                        \"descricao_cobertura\": \"Cobertura para roubos\"\n                                    }\n                                ]\n                            }\n                        }\n                    ]\n                },\n                \"validacao\": \"nao\"\n            }\n        ]\n    }\n}\n"
+				},
+				"url": {
+					"raw": "http://localhost:8080/submeter-conjunto-pedidos?resp=xml",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"submeter-conjunto-pedidos"
+					],
+					"query": [
+						{
+							"key": "resp",
+							"value": "xml"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "SE05 /submeter-conjunto-pedidos (XML Input)",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"name": "Content-Type",
+						"type": "text",
+						"value": "application/xml"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "<?xml version=\"1.0\" encoding=\"UTF-8\" ?>\n<casos>\n    <caso>\n        <objetos_segurados>\n            <objeto_seguro>\n                <descricao>Casa Caso A</descricao>\n                <lat>34.91728</lat>\n                <lng>94.85971</lng>\n                <coberturas>\n                    <cobertura>\n                        <titulo_cobertura>Incêndio</titulo_cobertura>\n                        <descricao_cobertura>Cobertura para incêndios</descricao_cobertura>\n                    </cobertura>\n                    <cobertura>\n                        <titulo_cobertura>Roubo</titulo_cobertura>\n                        <descricao_cobertura>Cobertura para roubos</descricao_cobertura>\n                    </cobertura>\n                </coberturas>\n            </objeto_seguro>\n            <objeto_seguro>\n                <descricao>Carro Caso A</descricao>\n                <lat>41.84153</lat>\n                <lng>27.56469</lng>\n                <coberturas>\n                    <cobertura>\n                        <titulo_cobertura>Incêndio</titulo_cobertura>\n                        <descricao_cobertura>Cobertura para incêndios</descricao_cobertura>\n                    </cobertura>\n                </coberturas>\n            </objeto_seguro>\n        </objetos_segurados>\n        <validacao>nao</validacao>\n    </caso>\n    <caso>\n        <objetos_segurados>\n            <objeto_seguro>\n                <descricao>Mota Caso B</descricao>\n                <lat>34.23896</lat>\n                <lng>-94.28439</lng>\n                <coberturas>\n                    <cobertura>\n                        <titulo_cobertura>Roubo</titulo_cobertura>\n                        <descricao_cobertura>Cobertura para roubos</descricao_cobertura>\n                    </cobertura>\n                </coberturas>\n            </objeto_seguro>\n        </objetos_segurados>\n        <validacao>nao</validacao>\n    </caso>\n    <caso>\n        <objetos_segurados>\n            <objeto_seguro>\n                <descricao>Mota Caso B</descricao>\n                <lat>34.23896</lat>\n                <lng>-94.28439</lng>\n                <coberturas>\n                    <cobertura>\n                        <titulo_cobertura>Roubo</titulo_cobertura>\n                        <descricao_cobertura>Cobertura para roubos</descricao_cobertura>\n                    </cobertura>\n                </coberturas>\n            </objeto_seguro>\n        </objetos_segurados>\n        <validacao>nao</validacao>\n    </caso>\n</casos>\n"
+				},
+				"url": {
+					"raw": "http://localhost:8080/submeter-conjunto-pedidos?resp=xml",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"submeter-conjunto-pedidos"
+					],
+					"query": [
+						{
+							"key": "resp",
+							"value": "xml"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "SG07 - pedido A + B",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"name": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n\t\"caso\": {\r\n\t\t\"objetos_segurados\": {\r\n\t\t\t\"objeto_seguro\": [\r\n\t\t\t\t{\r\n\t\t\t\t\t\"descricao\": \"Leça\",\r\n\t\t\t\t\t\"lat\": \"41.192058\",\r\n\t\t\t\t\t\"lng\": \"-8.701857\",\r\n\t\t\t\t\t\"coberturas\": {\r\n\t\t\t\t\t\t\"cobertura\": [\r\n\t\t\t\t\t\t\t{\r\n\t\t\t\t\t\t\t\t\"titulo_cobertura\": \"Calamidade\",\r\n\t\t\t\t\t\t\t\t\"descricao_cobertura\": \"Seguro contra calamidade\"\r\n\t\t\t\t\t\t\t},\r\n\t\t\t\t\t\t\t{\r\n\t\t\t\t\t\t\t\t\"titulo_cobertura\": \"Explosao\",\r\n\t\t\t\t\t\t\t\t\"descricao_cobertura\": \"Seguro para explosoes.\"\r\n\t\t\t\t\t\t\t}\r\n\t\t\t\t\t\t]\r\n\t\t\t\t\t}\r\n\t\t\t\t},\r\n\t\t\t\t{\r\n\t\t\t\t\t\"descricao\": \"Sra Hora\",\r\n\t\t\t\t\t\"lat\": \"41.186862\",\r\n\t\t\t\t\t\"lng\": \"-8.652098\",\r\n\t\t\t\t\t\"coberturas\": {\r\n\t\t\t\t\t\t\"cobertura\": [\r\n\t\t\t\t\t\t\t{\r\n\t\t\t\t\t\t\t\t\"titulo_cobertura\": \"Calamidade\",\r\n\t\t\t\t\t\t\t\t\"descricao_cobertura\": \"Seguro contra calamidade\"\r\n\t\t\t\t\t\t\t},\r\n\t\t\t\t\t\t\t{\r\n\t\t\t\t\t\t\t\t\"titulo_cobertura\": \"Explosao\",\r\n\t\t\t\t\t\t\t\t\"descricao_cobertura\": \"Seguro para explosoes.\"\r\n\t\t\t\t\t\t\t}\r\n\t\t\t\t\t\t]\r\n\t\t\t\t\t}\r\n\t\t\t\t}\r\n\t\t\t]\r\n\t\t},\r\n\t\t\"validacao\":\"n\"\r\n\t}\r\n}"
+				},
+				"url": {
+					"raw": "localhost:8080/submeter-pedido?resp=xml",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"submeter-pedido"
+					],
+					"query": [
+						{
+							"key": "resp",
+							"value": "xml"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "SG07 - pedido A",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"name": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n\t\"caso\": {\r\n\t\t\"objetos_segurados\": {\r\n\t\t\t\"objeto_seguro\": [\r\n\t\t\t\t{\r\n\t\t\t\t\t\"descricao\": \"Leça\",\r\n\t\t\t\t\t\"lat\": \"41.192058\",\r\n\t\t\t\t\t\"lng\": \"-8.701857\",\r\n\t\t\t\t\t\"coberturas\": {\r\n\t\t\t\t\t\t\"cobertura\": [\r\n\t\t\t\t\t\t\t{\r\n\t\t\t\t\t\t\t\t\"titulo_cobertura\": \"Calamidade\",\r\n\t\t\t\t\t\t\t\t\"descricao_cobertura\": \"Seguro contra calamidade\"\r\n\t\t\t\t\t\t\t},\r\n\t\t\t\t\t\t\t{\r\n\t\t\t\t\t\t\t\t\"titulo_cobertura\": \"Explosao\",\r\n\t\t\t\t\t\t\t\t\"descricao_cobertura\": \"Seguro para explosoes.\"\r\n\t\t\t\t\t\t\t}\r\n\t\t\t\t\t\t]\r\n\t\t\t\t\t}\r\n\t\t\t\t}\r\n\t\t\t]\r\n\t\t},\r\n\t\t\"validacao\":\"n\"\r\n\t}\r\n}"
+				},
+				"url": {
+					"raw": "localhost:8080/submeter-pedido?resp=xml",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"submeter-pedido"
+					],
+					"query": [
+						{
+							"key": "resp",
+							"value": "xml"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "SG07 - pedido B",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"name": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n\t\"caso\": {\r\n\t\t\"objetos_segurados\": {\r\n\t\t\t\"objeto_seguro\": [\r\n\t\t\t\t{\r\n\t\t\t\t\t\"descricao\": \"Sra Hora\",\r\n\t\t\t\t\t\"lat\": \"41.186862\",\r\n\t\t\t\t\t\"lng\": \"-8.652098\",\r\n\t\t\t\t\t\"coberturas\": {\r\n\t\t\t\t\t\t\"cobertura\": [\r\n\t\t\t\t\t\t\t{\r\n\t\t\t\t\t\t\t\t\"titulo_cobertura\": \"Calamidade\",\r\n\t\t\t\t\t\t\t\t\"descricao_cobertura\": \"Seguro contra calamidade\"\r\n\t\t\t\t\t\t\t},\r\n\t\t\t\t\t\t\t{\r\n\t\t\t\t\t\t\t\t\"titulo_cobertura\": \"Explosao\",\r\n\t\t\t\t\t\t\t\t\"descricao_cobertura\": \"Seguro para explosoes.\"\r\n\t\t\t\t\t\t\t}\r\n\t\t\t\t\t\t]\r\n\t\t\t\t\t}\r\n\t\t\t\t}\r\n\t\t\t]\r\n\t\t},\r\n\t\t\"validacao\":\"n\"\r\n\t}\r\n}"
+				},
+				"url": {
+					"raw": "localhost:8080/submeter-pedido?resp=xml",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"submeter-pedido"
+					],
+					"query": [
+						{
+							"key": "resp",
+							"value": "xml"
+						}
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
